@@ -1,5 +1,3 @@
-@import url(../gallery.css);
-
 html {
   scroll-behavior: smooth;
 }
@@ -1016,7 +1014,7 @@ h3 {
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: opacity 0.5s easeOutBouncee;
+  transition: opacity 0.5s linear;
 }
 
 .gallery__slide_active {
